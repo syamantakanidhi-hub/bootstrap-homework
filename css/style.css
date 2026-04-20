@@ -91,4 +91,4 @@ main { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
 .p3-h4 { font-size: 1.440rem; font-weight: 400; line-height: 1.5; text-decoration: underline; }
 .p3-h5 { font-size: 1.200rem; font-weight: 700; line-height: 1.5; }
 .p3-h6 { font-size: 1rem; font-weight: 400; line-height: 1.5; border-bottom: 1px solid #333; display: inline-block; }
-.p3-body { font-family: 'Nunito', sans-serif; font-size: 1rem; line-height: 1.4
+.p3-body { font-family: 'Nunito', sans-serif; font-size: 1rem; line-height: 1.4 }
