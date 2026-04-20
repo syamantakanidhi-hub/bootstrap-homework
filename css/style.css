@@ -1,0 +1,94 @@
+/* Color Palette */
+:root {
+    --navy: #002147;
+    --white: #ffffff;
+    --gray-line: #eeeeee;
+    --meta-color: #555555;
+    --link-blue: #36ABFD;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { background-color: var(--white); color: #333; line-height: 1.5; }
+
+/* Top Navigation Bar */
+nav {
+    background-color: var(--navy);
+    padding: 1.2rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links { list-style: none; display: flex; gap: 2rem; }
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Layout Structure */
+main { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+
+.page-header { margin-bottom: 4rem; }
+
+.type-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    border-top: 1px solid var(--gray-line);
+}
+
+.content-block { flex: 0 1 60%; }
+
+.meta-block {
+    flex: 0 1 30%;
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: var(--meta-color);
+    line-height: 1.6;
+}
+
+/* Typography elements */
+.emphasized { font-style: italic; font-weight: 700; }
+.hyperlink { color: var(--link-blue); text-decoration: underline; }
+
+/* --- Pairing 1: Bricolage & Inter --- */
+.p1-h1 { font-size: 2.986rem; font-weight: 700; line-height: 1.05; margin-bottom: 0.5rem; }
+.p1-h2 { font-size: 2.488rem; font-weight: 700; line-height: 1.1; margin-bottom: 0.5rem; }
+.p1-h3 { font-size: 2.074rem; font-weight: 600; line-height: 1.15; margin-bottom: 0.5rem; }
+.p1-h4 { font-size: 1.728rem; font-weight: 600; line-height: 1.2; }
+.p1-h5 { font-size: 1.440rem; font-weight: 600; line-height: 1.2; }
+.p1-h6 { font-size: 1.200rem; font-weight: 700; line-height: 1.2; text-transform: uppercase; }
+.p1-body { font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 1.5; }
+
+/* --- Pairing 2: Playfair & Montserrat --- */
+.p2-h1 { font-size: 3.157rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.5rem; }
+.p2-h2 { font-size: 2.369rem; font-weight: 700; line-height: 1.25; margin-bottom: 0.5rem; }
+.p2-h3 { font-size: 1.777rem; font-weight: 700; line-height: 1.3; margin-bottom: 0.5rem; }
+.p2-h4 { font-size: 1.333rem; font-weight: 700; line-height: 1.3; }
+.p2-h5 { font-size: 1.1rem; font-weight: 700; line-height: 1.3; font-style: italic; }
+.p2-h6 { font-size: 0.9rem; font-weight: 700; line-height: 1.3; letter-spacing: 0.1em; }
+.p2-body { font-family: 'Montserrat', sans-serif; font-size: 1rem; line-height: 1.6; }
+
+/* --- Pairing 3: Courier & Nunito --- */
+.p3-h1 { font-size: 2.488rem; font-weight: 400; line-height: 1.4; margin-bottom: 0.5rem; }
+.p3-h2 { font-size: 2.074rem; font-weight: 400; line-height: 1.4; margin-bottom: 0.5rem; }
+.p3-h3 { font-size: 1.728rem; font-weight: 700; line-height: 1.4; margin-bottom: 0.5rem; }
+.p3-h4 { font-size: 1.440rem; font-weight: 400; line-height: 1.5; text-decoration: underline; }
+.p3-h5 { font-size: 1.200rem; font-weight: 700; line-height: 1.5; }
+.p3-h6 { font-size: 1rem; font-weight: 400; line-height: 1.5; border-bottom: 1px solid #333; display: inline-block; }
+.p3-body { font-family: 'Nunito', sans-serif; font-size: 1rem; line-height: 1.4
